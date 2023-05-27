@@ -40,4 +40,8 @@ public class Categoria {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
+
+    public List<Atividade> getAtividades() {
+        return atividades;
+    }
 }
